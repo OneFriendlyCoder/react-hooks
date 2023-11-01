@@ -4,4 +4,7 @@ ex: [counter, setCounter] = useState();
 * When we refresh the page the state variable values are set to the original value.
 ex: [counter, setCounter] = useState(0); => whenever the page is refreshed the counter gets the value 0
 
-*
+* useState : lets us add a state variable to our component
+syntax: const[state, setState] = useState(initialState);
+
+* once the state is changed the webpage will itself rerender to accomodate the change
