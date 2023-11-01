@@ -1,0 +1,7 @@
+* Since we have declared the state variable as a const, we can't directly change it we will need the defined function to change the value of the state variable
+ex: [counter, setCounter] = useState();
+
+* When we refresh the page the state variable values are set to the original value.
+ex: [counter, setCounter] = useState(0); => whenever the page is refreshed the counter gets the value 0
+
+*
