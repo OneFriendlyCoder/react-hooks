@@ -1,0 +1,4 @@
+* useEffect is a function which is called whenever the page is rendered
+* it is used to synchronize a component with an external system
+* whenever the page is rendered the useEffect function will be called, since changing the state always causes the page to be rendered, thus it will be called everytime the state is changed :(
+* we can use an array of state to tell useEffect function to be only called when the following states have been altered

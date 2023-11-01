@@ -3,5 +3,3 @@ outside our component in a single function, called a reducer.
 
 * useReducer hook allows us to add reducer to our component
 syntax : const [state, dispatch] = useReducer(reducer, initialArg, init?)
-
-* 
