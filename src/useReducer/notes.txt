@@ -1,0 +1,7 @@
+* Reducer : components with many state updates spread across many event handlers is overwhelming, for these cases we can consolidate all the state update logic
+outside our component in a single function, called a reducer.
+
+* useReducer hook allows us to add reducer to our component
+syntax : const [state, dispatch] = useReducer(reducer, initialArg, init?)
+
+* 
